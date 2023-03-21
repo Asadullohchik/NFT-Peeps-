@@ -1,7 +1,37 @@
-.footer__1{
+.footer1{
     width: 100%;
-    height: 900px;
-    background-color: #FDDBE2;
+    height: auto;
+    /* background-color: #FDDBE2; */
 }
-
-
+.vector{
+    width: 100%;
+}
+.footer2{
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    background-color: #FDDBE2;
+    /* background-color: black; */
+    
+}
+.team{
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.team_sub{
+    text-align: center  ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -7px;
+}
+.devs{
+    width: 75%;
+    word-spacing: 100px;
+    margin-left: 300px;
+}
+.devs2{
+    height: 300px;
+}
+.past{
+    width: 100%;
+    margin-top: 50px;
+}
