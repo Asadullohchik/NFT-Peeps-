@@ -353,6 +353,141 @@
 }
 
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap");
+
+.roadmap {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  border: 4px solid red;
+  margin: auto;
+}
+.roadmap .head {
+  background: url(img/dot2.png) center center / cover;
+  width: 33px;
+  height: 35px;
+  margin: auto;
+  padding-top: 17px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.roadmap h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 65px;
+  text-align: center;
+}
+.roadmap .cards_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.roadmap .cards_2 .card_2 {
+  margin-top: 100px;
+  width: 1200px;
+  position: relative;
+}
+.roadmap .cards_2 .card_2 .percent {
+  background: url(img/dot2.png) center center / cover;
+  width: 33px;
+  height: 35px;
+  position: absolute;
+  top: 47%;
+  left: 35px;
+}
+.roadmap .cards_2 .card_2 .percent p {
+  color: #f7859c;
+  margin-left: 45px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 33px;
+  font-weight: 400;
+}
+.roadmap .cards_2 .card_2 .content {
+  width: 530px;
+  height: 475px;
+  background: url(img/dot1.png) center center / cover;
+  margin: auto;
+  padding-top: 120px;
+  padding-left: 89px;
+}
+.roadmap .cards_2 .card_2 .content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+.roadmap .cards_2 .card_2 .content h3 {
+  font-size: 18px;
+}
+.roadmap .cards_2 .card_2 .content p {
+  margin-top: 15px;
+  width: 336px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #404756;
+  line-height: 25px;
+}
+.roadmap .cards_2 .card_2 .dots {
+  position: absolute;
+  right: 420px;
+  top: 0;
+}
+.roadmap .cards_2 .card_2 .dots .indigo1 {
+  position: absolute;
+  height: 64.5px;
+  width: 63.5px;
+  left: 10.1;
+  top: 7.2;
+}
+.roadmap .cards_2 .card_2 .dots .indigo2 {
+  position: absolute;
+  height: 33.2px;
+  width: 32.8px;
+  left: 101.6px;
+  top: 3.7px;
+}
+.roadmap .cards_2 .card_2 .dots .pink {
+  position: absolute;
+  height: 41.2px;
+  width: 40.7px;
+  left: 81.2px;
+  top: 43.9px;
+}
+.roadmap .cards_2 .card_2 .dots .l-pink {
+  position: absolute;
+  height: 64.5px;
+  width: 63.5px;
+  left: 128.5px;
+  top: 77.1px;
+}
+.roadmap .cards_2 .card_2 .dots .indigo3 {
+  position: absolute;
+  height: 20.6px;
+  width: 20.3px;
+  left: 87.1px;
+  top: 95.3px;
+}
+.roadmap .cards_2 .card_2 .dots .blue {
+  position: absolute;
+  height: 41.2px;
+  width: 40.7px;
+  left: 24.2px;
+  top: 83.1px;
+}
+.roadmap .cards_2 .card_2 .woman{
+  width: 185px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.roadmap .cards_2 .card_2 .woman2{
+  width: 230px;
+}
+.roadmap .cards_2 .card_2 .woman3{
+  width: 300px;
+}
+
+
 .footer3 {
     width: 100%;
     height: auto;
