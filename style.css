@@ -1,7 +1,255 @@
 *
 {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: Open Sans;
+    src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+.sayt {
+    width: calc(100%-2px);
+    height: auto;
+    border: 2px solid blue;
+}
+
+.Header {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0px 60px;
+}
+
+.Navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar ul li {
+    list-style: none;
+}
+
+.Navbar ul li a {
+    display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222222;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.Navbar ul li .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 135px;
+    background: #F7859C;
+    border-radius: 12px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.Header_content {
+    width: 100%;
+    height: 121vh;
+    background: url(img/header_bg.png) center center / cover;
+    text-align: center;
+}
+
+.Header_content h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222222;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.Header_content h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 97px;
+    line-height: 87px;
+    text-align: center;
+    color: #222222;
+}
+
+.Header_content p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #404756;
+    margin-top: 45px;
+}
+
+.Header_content .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 135px;
+    background: #F7859C;
+    border-radius: 12px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 30px auto;
+}
+
+
+.collection {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+.collection h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #222222;
+}
+
+.collection h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 58px;
+    text-align: center;
+    color: #222222;
+    margin-top: 5px;
+}
+
+.collection .collection_content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+    padding: 0px 150px;
+    padding-bottom: 50px;
+}
+
+
+.collection_content .info {
+    width: 50%;
+    height: auto;
+}
+
+.collection_content .img {
+    width: 50%;
+    height: auto;
+}
+
+.info .peep {
+    width: 80%;
+    height: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #40475699;
+}
+
+.info .peep h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    color: #222222;
+    margin-top: 26px;
+}
+
+.info .peep p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #404756;
+    margin-top: 17px;
+}
+
+
+.footer1 {
+    width: 100%;
+    height: auto;
+}
+
+.vector {
+    width: 100%;
+}
+
+.footer2 {
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    background-color: #FDDBE2;
+
+}
+
+.team {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.team_sub {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -7px;
+}
+
+.devs {
+    width: 75%;
+    word-spacing: 100px;
+    margin-left: 300px;
+}
+
+.devs2 {
+    height: 300px;
+}
+
+.past {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 
 .Content 
 {
@@ -33,7 +281,9 @@
     height: auto;
     padding: 100px 0 50px 100px;
     background: #FBF1E6;
-    margin-top: -85px;
+    margin-top: -87px;
+    border: none;
+    border-radius: none;
 }
 .card img 
 {
@@ -103,5 +353,3 @@
     height: 20px;
     margin-top: 18px;
 }
-
-
