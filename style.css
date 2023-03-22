@@ -1,5 +1,4 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -251,32 +250,31 @@
 }
 
 
-.Content 
-{
+.Content {
     width: 100%;
     /* padding: 100px; */
     /* background: #FBF1E6; */
 }
-.orqafon
-{
+
+.orqafon {
     width: 100%;
     height: auto;
-    padding:100px;
+    padding: 100px;
     background: url(./img/orqafon.png)no-repeat;
     margin-top: -10px;
     color: white;
 }
-.orqafon:last-child
-{
+
+.orqafon:last-child {
     width: 100%;
     height: auto;
-    padding:100px;
+    padding: 100px;
     background: url(./img/orqafon2.png)no-repeat;
     margin-top: -10px;
     color: white;
 }
-.card
-{
+
+.card {
     width: 100%;
     height: auto;
     padding: 100px 0 50px 100px;
@@ -285,106 +283,111 @@
     border: none;
     border-radius: none;
 }
-.card .card_img
-{
+
+.card .card_img {
     width: 55px;
 }
-.card h1 
-{
+
+.card h1 {
     font-weight: 700;
     font-size: 65px;
     line-height: 58px;
     color: #222222;
     margin-bottom: -50px;
 }
-.card .cards 
-{
+
+.card .cards {
     width: 100%;
     height: auto;
     padding: 30px 0;
 }
-.card .cards .info 
-{
+
+.card .cards .info {
     border-top: 1px solid #222222;
     margin-top: 70px;
 }
-.card .cards .info h2
-{
+
+.card .cards .info h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 32px;
     color: #222222;
 }
-.card .cards .info p 
-{
+
+.card .cards .info p {
     width: 22%;
 }
-.card .cards .info img 
-{
+
+.card .cards .info img {
     margin-left: 58%;
     /* margin-top: -240px; */
 }
-.card .cards .inf img
-{
-    margin-left: 40%; 
+
+.card .cards .inf img {
+    margin-left: 40%;
 }
-.card .cards .inf:last-child
-{
+
+.card .cards .inf:last-child {
     border-bottom: 1px solid #222222;
     padding-bottom: 50px;
     padding-top: 50px;
 }
-.card .cards .info .tiers
-{
+
+.card .cards .info .tiers {
     width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.card .cards .info .tiers h3 
-{
+
+.card .cards .info .tiers h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 16px;
     color: #222222;
 }
-.card .cards .info .tiers img 
-{
+
+.card .cards .info .tiers img {
     margin: 0px;
 }
 
 
-.footer3{
+.footer3 {
     width: 100%;
     height: auto;
-    
+
 }
-.faq{
-    margin-left: 700px ;
+
+.faq {
+    margin-left: 700px;
     margin-top: 20px;
 }
-.accordion{
+
+.accordion {
     margin-top: 50px;
     width: 80%;
     margin-left: 150px;
 }
-.faq_sub{
+
+.faq_sub {
     margin-top: 10px;
 }
-.blwave{
+
+.blwave {
     width: 100%;
 }
-.footer4{
+
+.footer4 {
     width: 100%;
     height: auto;
     background-color: #D3D4ED;
 }
-.crc{
+
+.crc {
     height: 200px;
 }
-.footer_sub
-{
+
+.footer_sub {
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
 }
