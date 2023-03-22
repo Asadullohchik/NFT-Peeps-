@@ -285,9 +285,9 @@
     border: none;
     border-radius: none;
 }
-.card img 
+.card .card_img
 {
-    margin-bottom: -30px;
+    width: 55px;
 }
 .card h1 
 {
@@ -322,7 +322,7 @@
 .card .cards .info img 
 {
     margin-left: 58%;
-    margin-top: -240px;
+    /* margin-top: -240px; */
 }
 .card .cards .inf img
 {
@@ -332,13 +332,14 @@
 {
     border-bottom: 1px solid #222222;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 .card .cards .info .tiers
 {
-    width: 3%;
+    width: 15%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    /* border: 1px solid red; */
 }
 .card .cards .info .tiers h3 
 {
@@ -349,7 +350,5 @@
 }
 .card .cards .info .tiers img 
 {
-    width: 100px;
-    height: 20px;
-    margin-top: 18px;
+    margin: 0px;
 }
