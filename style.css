@@ -1,0 +1,107 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.Content 
+{
+    width: 100%;
+    /* padding: 100px; */
+    /* background: #FBF1E6; */
+}
+.orqafon
+{
+    width: 100%;
+    height: auto;
+    padding:100px;
+    background: url(./img/orqafon.png)no-repeat;
+    margin-top: -10px;
+    color: white;
+}
+.orqafon:last-child
+{
+    width: 100%;
+    height: auto;
+    padding:100px;
+    background: url(./img/orqafon2.png)no-repeat;
+    margin-top: -10px;
+    color: white;
+}
+.card
+{
+    width: 100%;
+    height: auto;
+    padding: 100px 0 50px 100px;
+    background: #FBF1E6;
+    margin-top: -85px;
+}
+.card img 
+{
+    margin-bottom: -30px;
+}
+.card h1 
+{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 58px;
+    color: #222222;
+    margin-bottom: -50px;
+}
+.card .cards 
+{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+.card .cards .info 
+{
+    border-top: 1px solid #222222;
+    margin-top: 70px;
+}
+.card .cards .info h2
+{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    color: #222222;
+}
+.card .cards .info p 
+{
+    width: 22%;
+}
+.card .cards .info img 
+{
+    margin-left: 58%;
+    margin-top: -240px;
+}
+.card .cards .inf img
+{
+    margin-left: 40%; 
+}
+.card .cards .inf:last-child
+{
+    border-bottom: 1px solid #222222;
+    padding-bottom: 50px;
+}
+.card .cards .info .tiers
+{
+    width: 3%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.card .cards .info .tiers h3 
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #222222;
+}
+.card .cards .info .tiers img 
+{
+    width: 100px;
+    height: 20px;
+    margin-top: 18px;
+}
+
+
