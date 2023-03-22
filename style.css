@@ -1,5 +1,4 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -250,30 +249,28 @@
     margin-bottom: 50px;
 }
 
-    /* CONTENT IS STARTED  */
 
 
-.Content 
-{
+.Content {
     width: 100%;
     font-family: Open Sans;
     /* padding: 100px; */
     /* background: #FBF1E6; */
 }
-.orqafon
-{
+
+.orqafon {
     width: 100%;
     height: auto;
-    padding:100px;
+    padding: 100px;
     background: url(./img/orqafon.png)no-repeat;
     margin-top: -10px;
     color: white;
 }
-.orqafon:last-child
-{
+
+.orqafon:last-child {
     width: 100%;
     height: auto;
-    padding:100px;
+    padding: 100px;
     background: url(./img/orqafon2.png)no-repeat;
     margin-top: -10px;
     color: white;
@@ -354,43 +351,44 @@
     color: #222222;
     margin-right: -80px;
 }
-.card .cards .info .tiers img 
-{
-    margin: 0px;
-}
 
 
-.footer3{
+.footer3 {
     width: 100%;
     height: auto;
-    
+
 }
-.faq{
-    margin-left: 700px ;
+
+.faq {
+    margin-left: 700px;
     margin-top: 20px;
 }
-.accordion{
+
+.accordion {
     margin-top: 50px;
     width: 80%;
     margin-left: 150px;
 }
-.faq_sub{
+
+.faq_sub {
     margin-top: 10px;
 }
-.blwave{
+
+.blwave {
     width: 100%;
 }
-.footer4{
+
+.footer4 {
     width: 100%;
     height: auto;
     background-color: #D3D4ED;
 }
-.crc{
+
+.crc {
     height: 200px;
 }
-.footer_sub
-{
+
+.footer_sub {
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
 }
